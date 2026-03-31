@@ -32,11 +32,13 @@
     </site>
     <snapshotRepository>
             <id>nexus</id>
-            <url>http://172.31.10.0:8081/repository/maven-snapshots/</url>
+            <name>mvn-nexus-sonar-project-1-Snapshot Nexus Repository</name>
+            <url>http://52.66.168.234:8081/repository/mvn-nexus-sonar-project-1-Snapshot/</url>
         </snapshotRepository>
         <repository>
             <id>nexus</id>
-            <url>http://172.31.10.0:8081/repository/maven-releases/</url>
+            <name>mvn-nexus-sonar-project-1-Release Nexus Repository</name>
+            <url>http://52.66.168.234:8081/repository/mvn-nexus-sonar-project-1-Release/</url>
         </repository>
   </distributionManagement>
 
